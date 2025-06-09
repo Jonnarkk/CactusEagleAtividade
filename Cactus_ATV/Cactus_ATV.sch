@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<libraries>
+<library name="DISPOSITIVO_CACTUS">
+<packages>
+<package name="DISPOSITIVO_CACTUS">
+<wire x1="0" y1="0" x2="0" y2="20" width="0.127" layer="21"/>
+<wire x1="0" y1="20" x2="20" y2="20" width="0.127" layer="21"/>
+<wire x1="20" y1="20" x2="20" y2="0" width="0.127" layer="21"/>
+<wire x1="20" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="VCC" x="2.54" y="2.54" drill="0.6" shape="square"/>
+<pad name="SCL" x="7.62" y="2.54" drill="0.6" shape="square"/>
+<pad name="SDA" x="12.7" y="2.54" drill="0.6" shape="square"/>
+<pad name="GND" x="17.78" y="2.54" drill="0.6" shape="square"/>
+<text x="3.81" y="16.51" size="1.27" layer="21">DISPOSITIVO</text>
+<text x="0" y="3.81" size="1.27" layer="21">VCC</text>
+<text x="6.35" y="3.81" size="1.27" layer="21">SCL</text>
+<text x="11.43" y="3.81" size="1.27" layer="21">SDA</text>
+<text x="16.51" y="3.81" size="1.27" layer="21">GND</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DISPOSITIVO_CACTUS">
+<wire x1="-40.64" y1="20.32" x2="-40.64" y2="-17.78" width="0.254" layer="94"/>
+<pin name="VCC" x="-30.48" y="-20.32" length="middle" rot="R90"/>
+<pin name="SCL" x="-15.24" y="-20.32" length="middle" rot="R90"/>
+<pin name="SDA" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="GND" x="15.24" y="-20.32" length="middle" rot="R90"/>
+<wire x1="-40.64" y1="-17.78" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="25.4" y1="20.32" x2="-40.64" y2="20.32" width="0.254" layer="94"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="-17.78" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DISPOSITIVO_CACTUS">
+<gates>
+<gate name="G$1" symbol="DISPOSITIVO_CACTUS" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="DISPOSITIVO_CACTUS">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="ESP32">
+<packages>
+<package name="ESP32">
+<pad name="5V" x="1.27" y="1.27" drill="0.85" shape="square"/>
+<pad name="GPIO11" x="1.27" y="3.81" drill="0.85" shape="square"/>
+<pad name="GPIO10" x="1.27" y="6.35" drill="0.85" shape="square"/>
+<pad name="GPIO9" x="1.27" y="8.89" drill="0.85" shape="square"/>
+<pad name="GPIO13" x="1.27" y="11.43" drill="0.85" shape="square"/>
+<pad name="GND1" x="1.27" y="13.97" drill="0.85" shape="square"/>
+<pad name="GPIO12" x="1.27" y="16.51" drill="0.85" shape="square"/>
+<pad name="GPIO14" x="1.27" y="19.05" drill="0.85" shape="square"/>
+<pad name="GPIO27" x="1.27" y="21.59" drill="0.85" shape="square"/>
+<pad name="GPIO26" x="1.27" y="24.13" drill="0.85" shape="square"/>
+<pad name="GPIO25" x="1.27" y="26.67" drill="0.85" shape="square"/>
+<pad name="GPIO33" x="1.27" y="29.21" drill="0.85" shape="square"/>
+<pad name="GPIO32" x="1.27" y="31.75" drill="0.85" shape="square"/>
+<pad name="GPIO35" x="1.27" y="34.29" drill="0.85" shape="square"/>
+<pad name="GPIO34" x="1.27" y="36.83" drill="0.85" shape="square"/>
+<pad name="GPIO39" x="1.27" y="39.37" drill="0.85" shape="square"/>
+<pad name="GPIO36" x="1.27" y="41.91" drill="0.85" shape="square"/>
+<pad name="EN" x="1.27" y="44.45" drill="0.85" shape="square"/>
+<pad name="3.3V" x="1.27" y="46.99" drill="0.85" shape="square"/>
+<pad name="GPIO6" x="24.13" y="1.27" drill="0.85" shape="square"/>
+<pad name="GPIO7" x="24.13" y="3.81" drill="0.85" shape="square"/>
+<pad name="GPIO8" x="24.13" y="6.35" drill="0.85" shape="square"/>
+<pad name="GPIO15" x="24.13" y="8.89" drill="0.85" shape="square"/>
+<pad name="GPIO2" x="24.13" y="11.43" drill="0.85" shape="square"/>
+<pad name="GPIO0" x="24.13" y="13.97" drill="0.85" shape="square"/>
+<pad name="GPIO4" x="24.13" y="16.51" drill="0.85" shape="square"/>
+<pad name="GPIO16" x="24.13" y="19.05" drill="0.85" shape="square"/>
+<pad name="GPIO17" x="24.13" y="21.59" drill="0.85" shape="square"/>
+<pad name="GPIO5" x="24.13" y="24.13" drill="0.85" shape="square"/>
+<pad name="GPIO18" x="24.13" y="26.67" drill="0.6" shape="square"/>
+<pad name="GPIO19" x="24.13" y="29.21" drill="0.85" shape="square"/>
+<pad name="GND3" x="24.13" y="31.75" drill="0.85" shape="square"/>
+<pad name="GPIO21" x="24.13" y="34.29" drill="0.85" shape="square"/>
+<pad name="RX" x="24.13" y="36.83" drill="0.85" shape="square"/>
+<pad name="TX" x="24.13" y="39.37" drill="0.85" shape="square"/>
+<pad name="GPIO22" x="24.13" y="41.91" drill="0.85" shape="square"/>
+<pad name="GPIO23" x="24.13" y="44.45" drill="0.85" shape="square"/>
+<pad name="GND2" x="24.13" y="46.99" drill="0.85" shape="square"/>
+<wire x1="0" y1="0" x2="0" y2="48.26" width="0.127" layer="21"/>
+<wire x1="0" y1="48.26" x2="25.4" y2="48.26" width="0.127" layer="21"/>
+<wire x1="25.4" y1="48.26" x2="25.4" y2="0" width="0.127" layer="21"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="8.89" y="0"/>
+<vertex x="8.89" y="2.54"/>
+<vertex x="12.7" y="2.54"/>
+<vertex x="16.51" y="2.54"/>
+<vertex x="16.51" y="0"/>
+</polygon>
+<text x="12.7" y="2.794" size="1.27" layer="21" align="bottom-center">USB</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32">
+<pin name="5V" x="0" y="2.54" visible="pin" length="short"/>
+<pin name="GPIO11" x="0" y="5.08" visible="pin" length="short"/>
+<pin name="GPIO10" x="0" y="7.62" visible="pin" length="short"/>
+<pin name="GPIO9" x="0" y="10.16" visible="pin" length="short"/>
+<pin name="GPIO13" x="0" y="12.7" visible="pin" length="short"/>
+<pin name="GND1" x="0" y="15.24" visible="pin" length="short"/>
+<pin name="GPIO12" x="0" y="17.78" visible="pin" length="short"/>
+<pin name="GPIO14" x="0" y="20.32" visible="pin" length="short"/>
+<pin name="GPIO27" x="0" y="22.86" visible="pin" length="short"/>
+<pin name="GPIO26" x="0" y="25.4" visible="pin" length="short"/>
+<pin name="GPIO25" x="0" y="27.94" visible="pin" length="short"/>
+<pin name="GPIO33" x="0" y="30.48" visible="pin" length="short"/>
+<pin name="GPIO32" x="0" y="33.02" visible="pin" length="short"/>
+<pin name="GPIO35" x="0" y="35.56" visible="pin" length="short"/>
+<pin name="GPIO34" x="0" y="38.1" visible="pin" length="short"/>
+<pin name="GPIO39" x="0" y="40.64" visible="pin" length="short"/>
+<pin name="GPIO36" x="0" y="43.18" visible="pin" length="short"/>
+<pin name="EN" x="0" y="45.72" visible="pin" length="short"/>
+<pin name="3.3V" x="0" y="48.26" visible="pin" length="short"/>
+<pin name="GPIO6" x="30.48" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO7" x="30.48" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO8" x="30.48" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO15" x="30.48" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO2" x="30.48" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO0" x="30.48" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO4" x="30.48" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO16" x="30.48" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO17" x="30.48" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO5" x="30.48" y="25.4" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO18" x="30.48" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO19" x="30.48" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="GND3" x="30.48" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO21" x="30.48" y="35.56" visible="pin" length="short" rot="R180"/>
+<pin name="RX" x="30.48" y="38.1" visible="pin" length="short" rot="R180"/>
+<pin name="TX" x="30.48" y="40.64" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO22" x="30.48" y="43.18" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO23" x="30.48" y="45.72" visible="pin" length="short" rot="R180"/>
+<pin name="GND2" x="30.48" y="48.26" visible="pin" length="short" rot="R180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="50.8" width="0.254" layer="94"/>
+<wire x1="2.54" y1="50.8" x2="27.94" y2="50.8" width="0.254" layer="94"/>
+<wire x1="27.94" y1="50.8" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="11.43" y="-2.54" size="1.778" layer="94">ESP32</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32">
+<gates>
+<gate name="G$1" symbol="ESP32" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP32">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO10" pad="GPIO10"/>
+<connect gate="G$1" pin="GPIO11" pad="GPIO11"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO17" pad="GPIO17"/>
+<connect gate="G$1" pin="GPIO18" pad="GPIO18"/>
+<connect gate="G$1" pin="GPIO19" pad="GPIO19"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO21" pad="GPIO21"/>
+<connect gate="G$1" pin="GPIO22" pad="GPIO22"/>
+<connect gate="G$1" pin="GPIO23" pad="GPIO23"/>
+<connect gate="G$1" pin="GPIO25" pad="GPIO25"/>
+<connect gate="G$1" pin="GPIO26" pad="GPIO26"/>
+<connect gate="G$1" pin="GPIO27" pad="GPIO27"/>
+<connect gate="G$1" pin="GPIO32" pad="GPIO32"/>
+<connect gate="G$1" pin="GPIO33" pad="GPIO33"/>
+<connect gate="G$1" pin="GPIO34" pad="GPIO34"/>
+<connect gate="G$1" pin="GPIO35" pad="GPIO35"/>
+<connect gate="G$1" pin="GPIO36" pad="GPIO36"/>
+<connect gate="G$1" pin="GPIO39" pad="GPIO39"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="GPIO6" pad="GPIO6"/>
+<connect gate="G$1" pin="GPIO7" pad="GPIO7"/>
+<connect gate="G$1" pin="GPIO8" pad="GPIO8"/>
+<connect gate="G$1" pin="GPIO9" pad="GPIO9"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="+5V" urn="urn:adsk.eagle:symbol:26929/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="+5V" urn="urn:adsk.eagle:component:26963/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<parts>
+<part name="U$1" library="DISPOSITIVO_CACTUS" deviceset="DISPOSITIVO_CACTUS" device=""/>
+<part name="U$2" library="ESP32" deviceset="ESP32" device=""/>
+<part name="PAINEL" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="1"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+<text x="121.92" y="5.08" size="1.778" layer="91">Esquemático do DISPOSITIVO CACTUS</text>
+</plain>
+<instances>
+<instance part="U$1" gate="G$1" x="50.8" y="93.98" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="83.82" y="27.94" smashed="yes"/>
+<instance part="PAINEL" gate="G$1" x="-45.72" y="-7.62" smashed="yes">
+<attribute name="DRAWING_NAME" x="171.45" y="7.62" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="171.45" y="2.54" size="2.286" layer="94"/>
+<attribute name="SHEET" x="184.785" y="-2.54" size="2.54" layer="94"/>
+</instance>
+<instance part="P+1" gate="1" x="76.2" y="35.56" smashed="yes">
+<attribute name="VALUE" x="76.2" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="66.04" y="50.8" smashed="yes">
+<attribute name="VALUE" x="66.04" y="48.26" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="3.3V"/>
+<wire x1="83.82" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="76.2" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SDA"/>
+<wire x1="50.8" y1="73.66" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
+<label x="50.8" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GPIO21"/>
+<wire x1="114.3" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<label x="119.38" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SCL"/>
+<wire x1="35.56" y1="73.66" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GPIO22"/>
+<wire x1="114.3" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+<label x="119.38" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="66.04" y1="73.66" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND2"/>
+<wire x1="114.3" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<label x="119.38" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<pinref part="U$2" gate="G$1" pin="5V"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+<errors>
+<approved hash="106,1,76.2,33.02,+5V,,,,,"/>
+<approved hash="106,1,83.82,30.48,+5V,,,,,"/>
+<approved hash="113,1,84.351,81.811,FRAME1,,,,,"/>
+</errors>
+</schematic>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -33,3 +33,7 @@ Os pinos criados para este equipamento são
 
 ### Trainee
 Guilherme Miller Gama Cardoso
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/afc64275-ade5-4490-829c-d8e11eca7db9">
+</p>

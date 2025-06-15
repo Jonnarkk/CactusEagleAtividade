@@ -15,5 +15,21 @@ O projeto no EAGLE inclui:
 * Integração deste dispositivo com um ESP32
 * Criação do layout da placa a partir da esquemática
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8fe4c2b0-6832-4afe-afbe-ed60bc0035ba">
+  <h4 align="center">Dipositivo genérico criado no EAGLE</h4>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ae287ccb-df9b-411f-af6f-94bad7284774">
+  <h4 align="center">Layout da placa criada</h4>
+</p>
+
+Os pinos criados para este equipamento são
+- `Pino VCC`: Utilizado para a alimentação do circuito interno
+- `Pino SDA`: Utilizado para transmisão de dados do dispositivo para o ESP32
+- `Pino SCL`: Utilizado para sincronização dos clocks da comunicação I2C
+- `Pino GND`: Utilizado para a alimentação do circuito interno
+
 ### Trainee
 Guilherme Miller Gama Cardoso
